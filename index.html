@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Le Morpion</h1>
+    </header>
+    <main>
+        <button onclick="setCpuMode(true)" type="button" class="oneJ">1 joueur</button>
+            <button onclick="setCpuMode(false)" type="button" class="twoJ">2 joueurs</button>
+        <div id="reply" class="hidden">
+            <button onclick="replay()" type="button" class="replay">Rejouer</button>
+            
+          </div>
+        <div id="table"></div>
+        <div id="gagneContainer"></div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+

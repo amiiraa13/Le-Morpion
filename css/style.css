@@ -1,0 +1,88 @@
+@font-face {
+    font-family: titre;
+    src: url(../fonts/Kids\ Book.ttf);
+}
+body{
+    background-image: url(../images/unnamed.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#table{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    background-image: url(../images/back.png);
+}
+.row{
+    display: flex;
+    flex:1;
+
+}
+.cell{
+    border: solid 5px rgba(255, 255, 255, 0.413);
+    flex:1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: titre;
+
+} 
+h1{
+    text-align: center;
+    font-family: titre;
+    font-size: 55px;
+}
+#gagneContainer{
+    font-family: titre;
+    font-size: 35px ;
+    text-align: center;
+    margin-top: 35px;
+}
+.hidden{
+    display: none;
+}
+
+.replay{
+    display: flex;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-family: titre;
+    font-size: 20px;
+    align-items: center;
+    background-color: #bf96ae00;
+}
+.oneJ{
+    display: flex;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-family: titre;
+    font-size: 20px;
+    align-items: center;
+    background-color: #bf96ae00;
+    cursor: pointer;
+}
+.oneJ:hover{
+    color: rgb(107, 104, 104);
+}
+.twoJ{
+    display: flex;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-family: titre;
+    font-size: 20px;
+    align-items: center;
+    background-color: #bf96ae00;
+    cursor: pointer;
+}
+.twoJ:hover{
+    color: rgb(107, 104, 104);
+}
